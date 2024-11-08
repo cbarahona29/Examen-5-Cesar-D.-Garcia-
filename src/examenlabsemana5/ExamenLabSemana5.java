@@ -133,7 +133,7 @@ public class ExamenLabSemana5 {
             System.out.print("Ingrese el tipo de Caja Digital\n"
                     +"LIGHTBOX\n"
                     +"HDBOX\n"
-                    +"DVRBOX:\n");
+                    +"DVRBOX\n");
             tipocaja = scanner.nextLine().toUpperCase();
             
           
@@ -146,7 +146,7 @@ public class ExamenLabSemana5 {
             } else {
                 System.out.println("Opción no válida. Por favor ingrese LIGHTBOX, HDBOX o DVRBOX");
             }
-        } while (!tipocaja.equals("LIGHTBOX") || !tipocaja.equals("HDBOX") || !tipocaja.equals("DVRBOX"));
+        } while (!tipocaja.equals("LIGHTBOX") && !tipocaja.equals("HDBOX") && !tipocaja.equals("DVRBOX"));
         
         
         int subtotal = tcanales + tcaja;
